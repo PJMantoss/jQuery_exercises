@@ -19,6 +19,9 @@ let $newList = $("<li>");
 $newList.text("I love puppies!");
 $("ol").append($newList);
 
+//OR
+$("ol").append($("<li>", {text: "I can add to lists with jQuery!" }));
+
 //Q6.Scratch that; the list is silly. Empty the aside and put a paragraph in it apologizing for the list's existence.
 $("aside").empty();
 let $newP = $("<p>");
