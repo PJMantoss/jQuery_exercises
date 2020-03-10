@@ -32,6 +32,6 @@ $(".form-control").on('keyup blur change', function(){
 
 //Q8. Add an event listener so that when you click on the image, it is removed from the DOM.
 $("img").on("click", function(e){
-    $(e.event.target).remove();
+    $(e.target).remove();
 })
 })
