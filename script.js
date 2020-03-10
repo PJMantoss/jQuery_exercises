@@ -15,4 +15,5 @@ $("ol").append($newList);
 $("aside").empty();
 let $newP = $("<p>");
 $newP.text("Apologies! The previous List was a mistake.");
+$("aside").append($newP);
 })
