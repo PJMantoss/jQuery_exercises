@@ -8,6 +8,9 @@ $("article img").addClass("image-center");
 //Q3.Remove the last paragraph in the article.
 $("p").eq(5).remove();
 
+//OR
+$("article p:last-child").remove();
+
 //Q4.Set the font size of h1 with an id of title to be a random pixel size from 0 to 100.
 $("#title").css("font-size", "(Math.floor(Math.random() * 101))px")
 
