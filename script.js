@@ -24,9 +24,9 @@ $("aside").append($newP);
 
 //Q7.When you change the numbers in the three inputs on the bottom, the background color of the body should change to match whatever the three values in the inputs are.
 $(".form-control").on("keyup blur change", function(){
-    let red = $(".form-control").eq(0).val(),
-        blue = $(".form-control").eq(1).val(),
-        green = $(".form-control").eq(2).val();
+    let red = $(".form-control").eq(0).val();
+    let blue = $(".form-control").eq(1).val();
+    let green = $(".form-control").eq(2).val();
 })
 
 $("body").css("background-color", "rgb(" + red + "," + blue + "," + green + ")");
