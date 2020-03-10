@@ -7,4 +7,5 @@ $("article").addClass("image-center");
 $("p").eq(5).remove();
 //Q4.Set the font size of h1 with an id of title to be a random pixel size from 0 to 100.
 $("#title").css("font-size", "(Math.floor(Math.random() * 101))px")
+//Q5.Add an item to the list; it can say whatever you want.
 })
