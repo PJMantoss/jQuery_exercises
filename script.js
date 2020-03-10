@@ -11,4 +11,8 @@ $("#title").css("font-size", "(Math.floor(Math.random() * 101))px")
 let $newList = $("<li>");
 $newList.text("I love puppies!");
 $("ol").append($newList);
+//Q6.Scratch that; the list is silly. Empty the aside and put a paragraph in it apologizing for the list's existence.
+$("aside").empty();
+let $newP = $("<p>");
+$newP.text("Apologies! The previous List was a mistake.");
 })
