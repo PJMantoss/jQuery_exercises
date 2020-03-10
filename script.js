@@ -16,4 +16,6 @@ $("aside").empty();
 let $newP = $("<p>");
 $newP.text("Apologies! The previous List was a mistake.");
 $("aside").append($newP);
+//Q7.When you change the numbers in the three inputs on the bottom, the background color of the body should change to match whatever the three values in the inputs are.
+$
 })
