@@ -25,8 +25,11 @@ $("ol").append($("<li>", {text: "I can add to lists with jQuery!" }));
 //Q6.Scratch that; the list is silly. Empty the aside and put a paragraph in it apologizing for the list's existence.
 $("aside").empty();
 let $newP = $("<p>");
-$newP.text("Apologies! The previous List was a mistake.");
+$newP.text("Apologies! The previous List was a mistake :(");
 $("aside").append($newP);
+
+//OR
+$("aside").empty().append($("<p>", {text: "Sorry about that list :("}));
 
 //Q7.When you change the numbers in the three inputs on the bottom, the background color of the body should change to match whatever the three values in the inputs are.
 $(".form-control").on('keyup blur change', function(){
