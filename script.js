@@ -5,11 +5,12 @@ $(document).ready(function(){
 //Q2.Give all images inside of an article tag the class of image-center (this class is defined inside of the style tag in the head). 
 $("article img").addClass("image-center");
 
+
 //Q3.Remove the last paragraph in the article.
 $("p").eq(5).remove();
 
 //OR
-$("article p:last-child").remove();
+//$("article p:last-child").remove();
 
 //Q4.Set the font size of h1 with an id of title to be a random pixel size from 0 to 100.
 $("#title").css("font-size", Math.floor(Math.random() * 101))
@@ -20,7 +21,7 @@ $newList.text("I love puppies!");
 $("ol").append($newList);
 
 //OR
-$("ol").append($("<li>", {text: "I can add to lists with jQuery!" }));
+//$("ol").append($("<li>", {text: "I can add to lists with jQuery!" }));
 
 //Q6.Scratch that; the list is silly. Empty the aside and put a paragraph in it apologizing for the list's existence.
 $("aside").empty();
@@ -29,7 +30,7 @@ $newP.text("Apologies! The previous List was a mistake :(");
 $("aside").append($newP);
 
 //OR
-$("aside").empty().append($("<p>", {text: "Sorry about that list :("}));
+//$("aside").empty().append($("<p>", {text: "Sorry about that list :("}));
 
 //Q7.When you change the numbers in the three inputs on the bottom, the background color of the body should change to match whatever the three values in the inputs are.
 $(".form-control").on('keyup blur change', function(){
