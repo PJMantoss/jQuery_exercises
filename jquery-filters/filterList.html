@@ -9,6 +9,9 @@
         $(document).ready(function(){
             $('#ourInput').on("keyup", function(){
                 let value = $(this).val().toLowerCase();
+                $("#ourList li").filter(function(){
+                    $(this).toggle()
+                })
             })
         })
     </script>
